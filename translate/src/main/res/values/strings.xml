@@ -4,5 +4,8 @@
     <string name="app_name">Translate</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="dictionary">Словарь</string>
+    <string name="add">Добавить слово</string>
+    <string name="about">О приложение</string>
 
 </resources>

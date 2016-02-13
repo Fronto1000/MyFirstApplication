@@ -24,21 +24,21 @@
             android:id="@+id/start_button"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Start"
+            android:text="@string/dictionary"
             android:background="@android:color/white"
             android:layout_marginBottom="5dip" />
         <Button
             android:id="@+id/add_button"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="add"
+            android:text="@string/add"
             android:background="@android:color/white"
             android:layout_marginBottom="5dip"/>
         <Button
             android:id="@+id/about_button"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="about"
+            android:text="@string/about"
             android:background="@android:color/white"
             android:layout_marginBottom="5dip"/>
     </LinearLayout>
