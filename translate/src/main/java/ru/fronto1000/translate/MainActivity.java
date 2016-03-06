@@ -1,17 +1,32 @@
 package ru.fronto1000.translate;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity implements OnClickListener{
+
+    Button startButton,addButton,aboutButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        startButton = (Button) findViewById(R.id.startButton);
+        startButton.setOnClickListener(this);
+
+        addButton = (Button) findViewById(R.id.addButton);
+        addButton.setOnClickListener(this);
+
+        aboutButton = (Button)findViewById(R.id.aboutButton);
+        aboutButton.setOnClickListener(this);
     }
 
 
@@ -35,5 +50,23 @@ public class MainActivity extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onClick(View v) {
+        Intent intent;
+        switch (v.getId()){
+            case R.id.startButton:
+                intent = new Intent();
+                break;
+            case R.id.addButton:
+                intent = new Intent();
+                break;
+            case R.id.aboutButton:
+                intent = new Intent();
+                break;
+
+        }
+
     }
 }
