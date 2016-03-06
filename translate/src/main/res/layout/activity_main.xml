@@ -26,14 +26,14 @@
             android:layout_height="wrap_content"
             android:text="@string/dictionary"
             android:background="@android:color/white"
-            android:layout_marginBottom="5dip" />
+            android:layout_marginBottom="10dip" />
         <Button
             android:id="@+id/addButton"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="@string/add"
             android:background="@android:color/white"
-            android:layout_marginBottom="5dip"/>
+            android:layout_marginBottom="10dip"/>
         <Button
             android:id="@+id/aboutButton"
             android:layout_width="fill_parent"
